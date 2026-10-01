@@ -56,7 +56,8 @@ Auditoria com validação cruzada estratificada (5-fold), avaliando média e des
 
 
 
-📊** Resultados**
+📊 **Resultados**
+
 <img width="1284" height="492" alt="image" src="https://github.com/user-attachments/assets/7ab8be47-336a-4dd6-aae6-ca9c71925eef" />
 
 
@@ -69,7 +70,8 @@ Auditoria com validação cruzada estratificada (5-fold), avaliando média e des
 •	scikit-learn
 •	imbalanced-learn
 
-📝 **Observações**
+📝  **Observações**
+
 •	O pré-processamento (imputação, encoding, SMOTE e escalonamento) fica dentro dos pipelines, evitando data leakage entre treino e validação.
 •	O train_test_split usa stratify=y e random_state=42 para garantir reprodutibilidade e preservar a proporção das classes.
 •	A remoção de outliers é aplicada somente ao treino do KNN; o conjunto de teste permanece intacto.
