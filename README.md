@@ -1,6 +1,6 @@
 **Risco de Crédito — Previsão de Inadimplência para setor bancário**
 
-📘 **Projeto Avaliativo do SENAI - Módulo 1 **
+📘 **Projeto Avaliativo do SENAI - Módulo 1**
 
 🤖 **Machine Learning que prevê se um cliente de um banco se tornará inadimplente (loan_status = 1) ou pagará o empréstimo em dia (loan_status = 0), comparando dois algoritmos de classificação: KNN e Random Forest.**
     
