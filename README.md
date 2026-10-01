@@ -59,9 +59,8 @@ KNN	0,89	0,77	0,72	0,74
 Random Forest	0,93	0,91	0,75	0,82
 
 Comparativo de erros (matrizes de confusão)
-Modelo | Falsos Negativos (calote não detectado)|Falsos Positivos (recusa indevida)
-KNN	|399|306
-Random Forest	|360	|104
+<img width="1284" height="492" alt="image" src="https://github.com/user-attachments/assets/7ab8be47-336a-4dd6-aae6-ca9c71925eef" />
+
 
 ✅ O Random Forest foi superior nos dois tipos de erro: reduziu os Falsos Negativos (o erro mais caro para o banco) e cometeu cerca de um terço dos Falsos Positivos do KNN. Esse foi o algoritmo escolhido.
 
