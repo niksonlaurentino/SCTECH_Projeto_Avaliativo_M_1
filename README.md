@@ -14,6 +14,7 @@ Falso Negativo (FN)	Crédito liberado para inadimplentes futuros — erro mais c
 Falso Positivo (FP)	Crédito negado a potenciais pagadores -	Custo de oportunidade (spread não capturado)
 
 📂 **Dataset**
+
 •	Arquivo: credit_risk_dataset.csv
 •	Tamanho: 32.581 linhas × 12 colunas (8 numéricas e 4 categóricas)
 •	Target de predição: loan_status (0 = adimplente, 1 = inadimplente), com desbalanceamento de classes (utilizado o SMOTE para balanceamento sintético)
