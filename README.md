@@ -70,6 +70,7 @@ Auditoria com validação cruzada estratificada (5-fold), avaliando média e des
 •	scikit-learn
 •	imbalanced-learn
 
+
 📝  **Observações**
 
 •	O pré-processamento (imputação, encoding, SMOTE e escalonamento) fica dentro dos pipelines, evitando data leakage entre treino e validação.
