@@ -49,16 +49,12 @@ Estratégia em duas fases, com StratifiedKFold (5 dobras) e métrica F1:
 
 5. Diagnóstico de Overfitting
 Auditoria com validação cruzada estratificada (5-fold), avaliando média e desvio padrão do F1 por dobra, com gráfico. 📊
+<img width="984" height="484" alt="image" src="https://github.com/user-attachments/assets/383bc71a-cc87-46ec-932b-4b22649e9eba" />
+<img width="984" height="484" alt="image" src="https://github.com/user-attachments/assets/7e04aebd-1e9c-44b9-bc32-3f7d2ba6b75a" />
+
+
 
 📊 Resultados
-Validação cruzada (treino) — F1 ponderado
-Modelo	Média	Desvio padrão
-KNN (k=21, distance, p=1)	0,8863	0,0031
-Random Forest (max_depth=26, n_estimators=100)	0,9255	0,0016
-KNN	0,89	0,77	0,72	0,74
-Random Forest	0,93	0,91	0,75	0,82
-
-Comparativo de erros (matrizes de confusão)
 <img width="1284" height="492" alt="image" src="https://github.com/user-attachments/assets/7ab8be47-336a-4dd6-aae6-ca9c71925eef" />
 
 
