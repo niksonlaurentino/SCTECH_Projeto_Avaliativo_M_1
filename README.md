@@ -61,14 +61,15 @@ Auditoria com validação cruzada estratificada (5-fold), avaliando média e des
 <img width="1284" height="492" alt="image" src="https://github.com/user-attachments/assets/7ab8be47-336a-4dd6-aae6-ca9c71925eef" />
 
 
-✅ **O Random Forest foi superior nos dois tipos de erro: reduziu os Falsos Negativos (o erro mais caro para o banco) e cometeu cerca de um terço dos Falsos Positivos do KNN. Esse foi o algoritmo escolhido.
-**
+✅  O Random Forest foi superior nos dois tipos de erro: reduziu os Falsos Negativos (o erro mais caro para o banco) e cometeu cerca de um terço dos Falsos Positivos do KNN. Esse foi o algoritmo escolhido.
+
 🛠️ **Tecnologias**
 •	Python 3.12
 •	pandas, NumPy
 •	matplotlib, seaborn
 •	scikit-learn
 •	imbalanced-learn
+
 
 📝  **Observações**
 
